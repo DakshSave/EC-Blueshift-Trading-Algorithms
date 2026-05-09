@@ -17,7 +17,7 @@ import numpy as np
 
 #Initialize Strategy.
 def initialize(context):
-    #Create Universe Of Stocks.
+    #Define Universe Of Stocks.
     context.assets = [symbol("_"), symbol("_"), symbol("_"), symbol("_")] #Replace Underscores With Desired Stocks' Tickers (Symbols)
     #Define Lookback (Rolling) Window.
     context.window = _ #Replace Underscore With Desired Lookback Period.
